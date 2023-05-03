@@ -279,3 +279,46 @@ header {
     flex-basis: 50%;
     width: 700px;
 }
+
+/*SEZIONE LOGHI*/
+.logos {
+    margin-top: 50px;
+    height: 600px;
+    display: flex;
+}
+
+.logo-col {
+    flex-basis: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo-content {
+    width: 50%;
+    height: 50%;
+}
+
+/*SEZIONE PROVA GRATUITA*/
+.free-try {
+    height: 300px;
+    display: flex;
+}
+
+.free-try-content {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-try-text {
+    flex-basis: 50%;
+    height: 50%;
+}
+
+.free-try-button {
+    flex-basis: 50%;
+    height: 50%;
+}
