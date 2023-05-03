@@ -260,3 +260,22 @@ header {
 .card-subtitle {
     flex-basis: 30%;
 }
+
+/*SEZIONE UTENTI CHE USANO DROP*/
+.number-of-users {
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.users-title {
+    flex-basis: 50%;
+    width: 700px;
+}
+
+.users-link {
+    flex-basis: 50%;
+    width: 700px;
+}
