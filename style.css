@@ -7,7 +7,7 @@
 
 /*BODY*/
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*CONTAINERS*/
@@ -19,4 +19,47 @@ body {
 .big-container {
     max-width: 1500px;
     margin: 0 auto;
+}
+
+/*BORDER X I BLOCCHETTONI*/
+.border {
+    border: 2px dashed black;
+}
+
+/*HEADER*/
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*CONTENUTO DELL'HEADER*/
+.header-drop-info {
+    flex-basis: 33%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-user {
+    flex-basis: 33%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+}
+
+li {
+    list-style-type: none;
+    min-height: 50px;
+    min-width: 100px;
+    display: inline-block;
 }
