@@ -195,3 +195,32 @@ header {
 .team-plan-description-content {
     flex-basis: calc(100% / 3);
 }
+
+/*SEZIONE PARTNER*/
+.partner-section   {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+}
+
+.partner-img-col {
+    flex-basis: 60%;
+}
+
+.partner-content-col {
+    flex-basis: 60%;    
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-content-title {
+    flex-basis: 20%;
+}
+
+.partner-content-subtitle {
+    flex-basis: 40%;
+}
+
+.partner-content-button {
+    flex-basis: 15%;
+}
