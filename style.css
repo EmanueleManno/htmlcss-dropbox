@@ -12,12 +12,12 @@ body {
 
 /*CONTAINERS*/
 .small-container {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .big-container {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -54,12 +54,43 @@ header {
     align-items: center;
 }
 
-ul {
-}
-
-li {
+.header-list > li {
     list-style-type: none;
     min-height: 50px;
     min-width: 100px;
+    display: inline-block;
+}
+
+/*SEZIONE DEL TITOLO*/
+.title-section {
+    height: 700px;
+}
+
+.title-section-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    flex-basis: 40%;
+}
+
+.subtitle {
+    flex-basis: 60%;
+    display: flex;
+}
+
+.text-content {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitle-list > li {
+    list-style-type: none;
+    min-height: 80px;
+    width: 100%;    
     display: inline-block;
 }
