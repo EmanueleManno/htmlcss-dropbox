@@ -224,3 +224,39 @@ header {
 .partner-content-button {
     flex-basis: 15%;
 }
+
+/*SEZIONE OPERAZIONI*/
+.operation-section    {
+    margin-top: 50px;
+    height: 1000px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.operation-title {
+    flex-basis: 10%;
+}
+
+.operation-col {
+    flex-basis: 90%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.operation-col-card {
+    flex-basis: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    flex-basis: 45%;
+}
+
+.card-title {
+    flex-basis: 25%;
+}
+
+.card-subtitle {
+    flex-basis: 30%;
+}
