@@ -350,6 +350,7 @@ footer {
 
 .footer-content {
     flex-basis: 60%;
+    display: flex;
 }
 
 .footer-line {
@@ -358,4 +359,23 @@ footer {
 
 .footer-language {
     flex-basis: 10%;
+}
+
+.footer-list {
+    flex-basis: calc(100% / 5);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list > li {
+    list-style-type: none;
+    height: 100%;
+}
+
+.footer-title-list {
+    flex-basis: 25%;
+}
+
+.footer-item-list {
+    flex-basis: 15%;
 }
