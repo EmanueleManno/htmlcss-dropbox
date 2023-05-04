@@ -234,12 +234,17 @@ header {
     margin-right: 5px;
 }
 
-.blue-check {
+.blue-check-box {
     border: 5px solid rgb(19,69,233);
 }
 
 .business-icon {
     margin-right: 5px;
+}
+
+.blue-check {
+    color: rgb(19,69,233);
+    font-weight: bold;
 }
 
 /*SEZIONE ENTERPRISE*/
@@ -256,6 +261,8 @@ header {
 
 .team-plan-title {
     flex-basis: 15%;
+    text-align: center;
+    padding-top: 8px;
 }
 
 .team-plan-content {
