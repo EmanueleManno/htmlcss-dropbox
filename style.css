@@ -76,6 +76,7 @@ header {
 /*SEZIONE DEL TITOLO*/
 .title-section {
     height: 700px;
+    background-color: rgb(193,222,240);
 }
 
 .title-section-content {
@@ -86,30 +87,65 @@ header {
 
 .title {
     flex-basis: 40%;
+    font-size: 50px;
+    text-align: justify center;
+    padding-top: 50px;
 }
 
 .subtitle {
     flex-basis: 60%;
     display: flex;
+    flex-direction: row;
+    height: 100%;
 }
 
 .text-content {
-    flex-basis: 40%;
+    flex-basis: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    height: 100%;
 }
 
 .subtitle-list > li {
-    list-style-type: none;
-    min-height: 80px;
-    width: 100%;    
-    display: inline-block;
+    list-style-type: none;  
+    flex-basis: calc(100% / 4);
+}
+
+.subtitle-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.padding-bottom {
+    padding-bottom: 40px;
+}
+
+.padding-top {
+    padding-top: 40px;
+}
+
+.button-blue {
+    background-color: rgb(65,110,227);
+    color: white;
+    max-width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.arrow {
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.jumbo {
+    flex-basis: 65%;
+    max-width: 65%;
+    height: 115%;
 }
 
 /*SEZIONE DEL BUSINESS*/
 .business-section {
-    margin-top: 50px;
+    margin-top: 100px;
     height: 1000px;
 }
 
