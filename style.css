@@ -157,6 +157,7 @@ header {
 
 .business-title {
     flex-basis: 12%;
+    font-size: 30px;
 }
 
 .business-billing {
@@ -177,6 +178,8 @@ header {
 
 .plan-title {
     flex-basis: 5%;
+    text-align: center;
+    padding-top: 8px;
 }
 
 .plan-description {
@@ -205,6 +208,38 @@ header {
 
 .enter-summary-content {
     flex-basis: calc(100% / 4);
+}
+
+.business-billing {
+    display: flex;
+}
+
+.month-billing {
+    display: flex;
+    flex-basis: 20%;
+    padding: 5px;
+}
+
+.annual-billing {
+    flex-basis: 20%;
+    display: flex;
+    padding: 5px;
+}
+
+.check {
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.blue-check {
+    border: 5px solid rgb(19,69,233);
+}
+
+.business-icon {
+    margin-right: 5px;
 }
 
 /*SEZIONE ENTERPRISE*/
