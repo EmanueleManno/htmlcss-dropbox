@@ -378,6 +378,8 @@ header {
 .users-title {
     flex-basis: 50%;
     width: 700px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .users-link {
@@ -403,6 +405,48 @@ header {
 .logo-content {
     width: 50%;
     height: 50%;
+}
+
+.bg-1 {
+    background-color: rgb(165,219,153);
+}
+
+.bg-2 {
+    background-color: rgb(4,145,181);
+}
+
+.bg-3 {
+    background-color: rgb(100,0,0);
+}
+
+.bg-4 {
+    background-color: rgb(255,0,0);
+}
+
+.bg-5 {
+    background-color: rgb(215,17,17);
+}
+
+.bg-6 {
+    background-color: rgb(3,0,156);
+}
+
+.bg-7 {
+    background-color: rgb(178,206,223);
+}
+
+.bg-8 {
+    background-color: rgb(233,196,48);
+}
+
+.bg-central {
+    background-color: rgb(247,241,241);
+    padding: 20px;
+}
+
+.logo-central {
+    width: 50%;
+    height: 30%;
 }
 
 /*SEZIONE PROVA GRATUITA*/
