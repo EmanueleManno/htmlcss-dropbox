@@ -322,3 +322,40 @@ header {
     flex-basis: 50%;
     height: 50%;
 }
+
+/*SEZIONE FAQ*/
+.faq  {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-col {
+    flex-basis: 25%;
+}
+
+/*FOOTER*/
+footer {
+    height: 600px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-content {
+    flex-basis: 60%;
+}
+
+.footer-line {
+    flex-basis: 10%;
+}
+
+.footer-language {
+    flex-basis: 10%;
+}
