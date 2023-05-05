@@ -33,6 +33,12 @@ header {
     justify-content: space-between;
 }
 
+/*CLASSE BUTTON*/
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
 /*CONTENUTO DELL'HEADER*/
 .header-drop-info {
     flex-basis: 33%;
@@ -400,11 +406,13 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .logo-content {
     width: 50%;
     height: 50%;
+    position: relative;
 }
 
 .bg-1 {
@@ -441,15 +449,21 @@ header {
 
 .bg-central {
     background-color: rgb(247,241,241);
-    padding: 20px;
+    padding: 30px;
+    text-align: left;
+}
+
+.autor {
+    margin-top: 50px;
 }
 
 .logo-image {
+    position: absolute;
+    top: 25%;
+    left: 25%;
     height: 100px;
     width: 150px;
-    padding-left: 50px;
-    padding-top: 50px;
-    color:white
+    filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(265deg) brightness(107%) contrast(101%);
 }
 
 .logo-central {
@@ -461,6 +475,7 @@ header {
 .free-try {
     height: 300px;
     display: flex;
+    background-color: rgb(193,222,240);
 }
 
 .free-try-content {
@@ -471,13 +486,22 @@ header {
 }
 
 .free-try-text {
-    flex-basis: 50%;
+    flex-basis: 60%;
     height: 50%;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(132,10,10);
 }
 
 .free-try-button {
-    flex-basis: 50%;
-    height: 50%;
+    flex-basis: 40%;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 100px ;
+    background-color: white;
 }
 
 /*SEZIONE FAQ*/
@@ -490,6 +514,23 @@ header {
 
 .faq-col {
     flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.title-faq {
+    font-size: 35px;
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid gray;
+}
+
+.faq-down-arrow {
+    transform: rotateX(-180deg);
+    padding-left: 250px;
+    padding-top: 5px;
 }
 
 /*FOOTER*/
@@ -547,5 +588,6 @@ footer {
 }
 
 .footer-language {
+    opacity: 0.5;
     padding-top: 50px;
 }
