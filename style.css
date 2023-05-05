@@ -133,9 +133,9 @@ header {
 .button-blue {
     background-color: rgb(65,110,227);
     color: white;
-    max-width: 200px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    max-width: 250px;
+    padding: 10px 25px;
+    max-height: 50px
 }
 
 .arrow {
@@ -188,10 +188,24 @@ header {
     padding-top: 8px;
 }
 
+.plan-type {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.plan-time {
+    color: gray;
+}
+
 .plan-description {
     flex-basis: 55%;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .plan-description-content {
@@ -202,6 +216,7 @@ header {
     flex-basis: 40%;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .prof-summary-content {
@@ -277,6 +292,16 @@ header {
     flex-direction: row;
 }
 
+.title-card {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.subtitle-card {
+    font-weight: bold;
+}
+
 .team-plan-description {
     flex-basis: 70%;
     display: flex;
@@ -310,13 +335,16 @@ header {
 }
 
 .partner-content-col {
-    flex-basis: 60%;    
+    flex-basis: 40%;    
     display: flex;
     flex-direction: column;
 }
 
 .partner-content-title {
     flex-basis: 20%;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
 }
 
 .partner-content-subtitle {
@@ -324,9 +352,11 @@ header {
 }
 
 .partner-content-button {
-    flex-basis: 15%;
+    flex-basis: 10%;
     border: 3px solid black;
     width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 /*SEZIONE OPERAZIONI*/
