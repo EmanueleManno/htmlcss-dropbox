@@ -342,7 +342,7 @@ header {
 }
 
 .partner-img-col {
-    flex-basis: 60%;
+    flex-basis: 65%;
     background-image: url(img/partner.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -351,7 +351,7 @@ header {
 }
 
 .partner-content-col {
-    flex-basis: 40%;    
+    flex-basis: 35%;    
     display: flex;
     flex-direction: column;
 }
@@ -361,10 +361,12 @@ header {
     font-size: 25px;
     font-weight: bold;
     padding-top: 15px;
+    margin-top: 10px;
 }
 
 .partner-content-subtitle {
     flex-basis: 40%;
+    margin-top: 10px;
 }
 
 .partner-content-button {
@@ -377,7 +379,7 @@ header {
 
 /*SEZIONE OPERAZIONI*/
 .operation-section    {
-    margin-top: 50px;
+    margin-top: 100px;
     height: 1000px;
     display: flex; 
     flex-direction: column;
@@ -385,6 +387,8 @@ header {
 
 .operation-title {
     flex-basis: 10%;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .operation-col {
@@ -397,10 +401,13 @@ header {
     flex-basis: calc(100% / 3);
     display: flex;
     flex-direction: column;
+    padding: 25px 15px;
 }
 
 .card-img {
     flex-basis: 45%;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .card-operation-img {
@@ -412,6 +419,7 @@ header {
     flex-basis: 25%;
     font-size: 25px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .card-subtitle {
@@ -420,7 +428,7 @@ header {
 
 /*SEZIONE UTENTI CHE USANO DROP*/
 .number-of-users {
-    margin-top: 50px;
+    margin-top: 250px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -517,6 +525,16 @@ header {
     height: 30%;
 }
 
+.logo-florida {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    height: 45px;
+    width: 150px;
+    filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(265deg) brightness(107%) contrast(101%);
+
+}
+
 /*SEZIONE PROVA GRATUITA*/
 .free-try {
     height: 300px;
@@ -527,7 +545,7 @@ header {
 .free-try-content {
     flex-basis: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -540,7 +558,7 @@ header {
 }
 
 .free-try-button {
-    flex-basis: 40%;
+    flex-basis: 30%;
     height: 40px;
     width: 50px;
     display: flex;
@@ -636,4 +654,11 @@ footer {
 .footer-language {
     opacity: 0.5;
     padding-top: 50px;
+    position: relative;
+}
+
+.sort-up-icon {
+    position: absolute;
+    top: 55px;
+    padding-left: 5px;
 }
