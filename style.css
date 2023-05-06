@@ -30,7 +30,14 @@ body {
 header {
     height: 100px;
     display: flex;
+    background-color: white;
+    box-shadow: 0 1px 3x #dedede;
     justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 /*CLASSE BUTTON*/
@@ -41,7 +48,7 @@ header {
 
 /*CONTENUTO DELL'HEADER*/
 .header-drop-info {
-    flex-basis: 33%;
+    flex-basis: 40%;
     height: 100%;
     padding: 5px;
     display: flex;
@@ -51,7 +58,7 @@ header {
 }
 
 .header-user {
-    flex-basis: 33%;
+    flex-basis: 40%;
     height: 100%;
     padding: 5px;
     display: flex;
@@ -62,7 +69,7 @@ header {
 
 .header-list > li {
     list-style-type: none;
-    min-height: 50px;
+    min-height: 40px;
     min-width: 100px;
     display: inline-block;
     padding: 10px;
@@ -77,6 +84,11 @@ header {
     color: white;
     vertical-align: middle;
     text-align: center;
+}
+
+.header-item {
+    text-decoration: none;
+    color: currentColor;
 }
 
 /*SEZIONE DEL TITOLO*/
@@ -95,6 +107,7 @@ header {
     flex-basis: 40%;
     font-size: 50px;
     text-align: justify center;
+    font-weight: bold;
     padding-top: 50px;
 }
 
@@ -103,6 +116,7 @@ header {
     display: flex;
     flex-direction: row;
     height: 100%;
+    padding-top: 25px;
 }
 
 .text-content {
@@ -110,6 +124,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 100%;
+    padding-top: 25px;
 }
 
 .subtitle-list > li {
@@ -139,14 +154,15 @@ header {
 }
 
 .arrow {
-    padding-top: 100px;
+    padding-top: 75px;
     font-size: 50px;
 }
 
 .jumbo {
     flex-basis: 65%;
     max-width: 65%;
-    height: 115%;
+    height: 100%;
+    transform: translateY(30px);
 }
 
 /*SEZIONE DEL BUSINESS*/
