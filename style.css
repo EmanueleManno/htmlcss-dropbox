@@ -215,6 +215,7 @@ header {
 
 .plan-time {
     color: gray;
+    margin-bottom: 30px;
 }
 
 .plan-description {
@@ -284,10 +285,21 @@ header {
     font-weight: bold;
 }
 
+.grey-small-border {
+    width: 50px;
+    border: 1px solid gray;
+    margin-left: 20px;
+}
+
 /*SEZIONE ENTERPRISE*/
+.grey-border {
+    border: 1px solid grey;
+}
+
 .team-section {
     height: 250px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .team-section-content {
@@ -306,6 +318,7 @@ header {
     flex-basis: 85%;
     display: flex;
     flex-direction: row;
+    padding-top: 15px;
 }
 
 .title-card {
@@ -323,6 +336,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 100%;
+    padding-left: 15px;
 }
 
 .team-plan-button {
