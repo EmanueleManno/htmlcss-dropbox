@@ -150,7 +150,7 @@ header {
     color: white;
     max-width: 250px;
     padding: 10px 25px;
-    max-height: 50px
+    max-height: 50px;
 }
 
 .arrow {
@@ -227,6 +227,7 @@ header {
 
 .plan-description-content {
     flex-basis: calc(100% / 8);
+    padding: 10px 0;
 }
 
 .plan-summary {
